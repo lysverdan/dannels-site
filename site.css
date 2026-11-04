@@ -311,3 +311,9 @@ main > .page { display: block; animation: pagein .7s ease both; }
 .trays { grid-template-columns: repeat(4, minmax(0, 1fr)); }
 @media (max-width: 1100px) { .trays { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
 @media (max-width: 600px) { .trays { grid-template-columns: 1fr; } }
+
+/* ---------- bench + about photos ---------- */
+.photo-band--bench { background-image: url("img/bench.jpg"); background-position: center 55%; }
+.about-split { display: grid; grid-template-columns: minmax(0, 0.9fr) minmax(0, 1.1fr); gap: 3rem; align-items: center; }
+.about-photo { max-width: 460px; }
+@media (max-width: 800px) { .about-split { grid-template-columns: 1fr; gap: 2rem; } .about-photo { max-width: none; } }
