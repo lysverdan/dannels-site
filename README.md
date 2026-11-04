@@ -10,6 +10,7 @@ Redesign concept for Dannels Jewelry at Ocean Reef Club, Key Largo. Not the live
 - `events.html` — Season events and invitation signup
 - `about.html` — The family
 - `visit.html` — Address, hours, private appointments
+- `new-arrivals.html` — New Arrivals (sample pieces with New Arrival / Sold tags)
 - `notes.html` — Concept notes: what to swap or confirm
 - `site.css` — shared styles for every page
 - `email/season-invite.html` — Members invitation email (Mailchimp-ready; fill in the bracketed date, time, and description)
