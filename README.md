@@ -16,4 +16,4 @@ Redesign concept for Dannels Jewelry at Ocean Reef Club, Key Largo. Not the live
 ## Status
 - Sample pieces and the sample event are placeholders until real photos and details arrive.
 - `robots.txt` and a `noindex` tag on every page keep this concept out of search engines so it can't compete with the live site. Remove both at launch.
-- The invitation signup is wired for Netlify Forms.
+- Hosted free on GitHub Pages. The invitation signup is a placeholder until it connects to Mailchimp at launch.
