@@ -2,5 +2,18 @@
 
 Redesign concept for Dannels Jewelry at Ocean Reef Club, Key Largo. Not the live site.
 
-- `index.html` — current concept (black-velvet look, multi-page, works without JavaScript)
+## Pages
+- `index.html` — Home
+- `collections.html` — Collections (velvet case, sample pieces)
+- `estate.html` — Estate jewelry (Singer Estate catalogue)
+- `services.html` — Jewelry & watch repair
+- `events.html` — Season events and invitation signup
+- `about.html` — The family
+- `visit.html` — Address, hours, private appointments
+- `notes.html` — Concept notes: what to swap or confirm
+- `site.css` — shared styles for every page
+
+## Status
 - Sample pieces and the sample event are placeholders until real photos and details arrive.
+- `robots.txt` and a `noindex` tag on every page keep this concept out of search engines so it can't compete with the live site. Remove both at launch.
+- The invitation signup is wired for Netlify Forms.
