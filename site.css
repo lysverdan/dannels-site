@@ -281,3 +281,13 @@ footer a:hover { color: var(--gold); }
 .menu a[aria-current="page"] { color: var(--gold); border-bottom-color: var(--gold); }
 main > .page { display: block; animation: pagein .7s ease both; }
 @keyframes pagein { from { opacity: 0.001; transform: translateY(12px); } to { opacity: 1; transform: none; } }
+
+/* ---------- photography ---------- */
+.hero2 { background: linear-gradient(to bottom, rgba(7,7,7,0.15) 0%, rgba(7,7,7,0.35) 45%, rgba(7,7,7,0.78) 70%, var(--velvet) 100%), url("img/hero-pedestal.jpg") center 30% / cover no-repeat; }
+.hero2::before { opacity: 0.6; }
+.page-head { background: linear-gradient(90deg, rgba(7,7,7,0.92) 0%, rgba(7,7,7,0.7) 45%, rgba(7,7,7,0.35) 100%), url("img/header-velvet.jpg") center / cover no-repeat; }
+.estate-photo { margin: 0; border: 1px solid var(--line); box-shadow: 0 30px 60px rgba(0,0,0,.6); }
+.estate-photo img { display: block; width: 100%; height: auto; aspect-ratio: 4 / 5; object-fit: cover; }
+.photo-band { position: relative; height: clamp(240px, 44vw, 520px); background: url("img/visit-dock.jpg") center 60% / cover no-repeat; }
+.photo-band::after { content: ""; position: absolute; inset: 0; background: linear-gradient(to bottom, var(--velvet) 0%, rgba(7,7,7,0.15) 22%, rgba(7,7,7,0.2) 70%, var(--velvet) 100%), linear-gradient(rgba(7,20,28,0.25), rgba(7,20,28,0.25)); }
+.invite-band { background: linear-gradient(rgba(7,7,7,0.35), rgba(7,7,7,0.35)), url("img/events-glow.jpg") center / cover no-repeat; }
